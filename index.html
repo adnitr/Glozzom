@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+      integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Glozzom</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">Glozzom</a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="services.html" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="blog.html" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- SHOWCASE SLIDER -->
+    <section id="showcase">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item carousel-image-1 active">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                <h1 class="display-3">Heading One</h1>
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Facilis ex eligendi tempore voluptas nihil error ipsa sunt
+                  natus velit ducimus.
+                </p>
+                <a href="#" class="btn btn-danger">Sign Up Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel-image-2">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block mb-5">
+                <h1 class="display-3">Heading Two</h1>
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Facilis ex eligendi tempore voluptas nihil error ipsa sunt
+                  natus velit ducimus.
+                </p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel-image-3">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                <h1 class="display-3">Heading Threee</h1>
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Facilis ex eligendi tempore voluptas nihil error ipsa sunt
+                  natus velit ducimus.
+                </p>
+                <a href="#" class="btn btn-success">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a href="#myCarousel" class="carousel-control-prev" data-slide="prev"
+          ><span class="carousel-control-prev-icon"></span
+        ></a>
+        <a href="#myCarousel" class="carousel-control-next" data-slide="next"
+          ><span class="carousel-control-next-icon"></span
+        ></a>
+      </div>
+    </section>
+
+    <!-- HOME ICON SECTION -->
+    <section id="home-icons" class="py-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-4 mb-4 text-center">
+            <i class="fas fa-cog fa-3x mb-2"></i>
+            <h3>Turning Gears</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis,
+              optio!
+            </p>
+          </div>
+          <div class="col-md-4 mb-4 text-center">
+            <i class="fas fa-cloud fa-3x mb-2"></i>
+            <h3>Sending Data</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis,
+              optio!
+            </p>
+          </div>
+          <div class="col-md-4 mb-4 text-center">
+            <i class="fas fa-cart-plus fa-3x mb-2"></i>
+            <h3>Making Money</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis,
+              optio!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOME HEADING SECTION -->
+    <section id="home-heading" class="p-5">
+      <div class="dark-overlay">
+        <div class="row">
+          <div class="col">
+            <div class="container pt-5">
+              <div class="container-inner">
+                <h1>Are You Ready To Get Started?</h1>
+                <p class="d-none d-md-block">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Iste, accusantium nostrum. Ex magni quod laudantium totam
+                  consequatur a, suscipit reprehenderit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INFO SECTION -->
+    <section id="info" class="py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 align-self-center">
+            <h3>Lorem ipsum</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+              tenetur laboriosam accusantium tempora et quisquam repellat
+              aperiam numquam saepe eveniet.
+            </p>
+            <a href="about.html" class="btn btn-outline-danger">Learn More</a>
+          </div>
+          <div class="col-md-6 align-self-center">
+            <img src="img/laptop.png" alt="image of laptop" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIDEO PLAY -->
+    <section id="video-play">
+      <div class="dark-overlay">
+        <div class="row justify-content-center align-items-center text-center">
+          <div class="col">
+            <div class="container p-5">
+              <a
+                href="#"
+                class="video"
+                data-video="https://www.youtube.com/embed/faple3eqPU0"
+                data-toggle="modal"
+                data-target="#videoModal"
+                ><i class="fas fa-play fa-3x"></i
+              ></a>
+              <h2 class="mt-3">See What We Do</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHOTO GALLERY -->
+    <section id="gallery" class="py-5">
+      <div class="container">
+        <h1 class="text-center">Photo Gallery</h1>
+        <p class="text-center">Check out our photos</p>
+        <div class="row mb-4">
+          <div class="col-md-4">
+            <a
+              href="https://source.unsplash.com/random/500x500"
+              data-toggle="lightbox"
+              data-gallery="img-gallery"
+              data-height="500"
+              data-width="500"
+            >
+              <img
+                src="https://source.unsplash.com/random/500x500"
+                alt=""
+                class="img-fluid"
+              />
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a
+              href="https://source.unsplash.com/random/501x501"
+              data-toggle="lightbox"
+              data-gallery="img-gallery"
+              data-height="501"
+              data-width="501"
+            >
+              <img
+                src="https://source.unsplash.com/random/501x501"
+                alt=""
+                class="img-fluid"
+              />
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a
+              href="https://source.unsplash.com/random/502x502"
+              data-toggle="lightbox"
+              data-gallery="img-gallery"
+              data-height="502"
+              data-width="502"
+            >
+              <img
+                src="https://source.unsplash.com/random/502x502"
+                alt=""
+                class="img-fluid"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="row mb-4">
+          <div class="col-md-4">
+            <a
+              href="https://source.unsplash.com/random/503x503"
+              data-toggle="lightbox"
+              data-gallery="img-gallery"
+              data-height="503"
+              data-width="503"
+            >
+              <img
+                src="https://source.unsplash.com/random/503x503"
+                alt=""
+                class="img-fluid"
+              />
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a
+              href="https://source.unsplash.com/random/504x504"
+              data-toggle="lightbox"
+              data-gallery="img-gallery"
+              data-height="504"
+              data-width="504"
+            >
+              <img
+                src="https://source.unsplash.com/random/504x504"
+                alt=""
+                class="img-fluid"
+              />
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a
+              href="https://source.unsplash.com/random/505x505"
+              data-toggle="lightbox"
+              data-gallery="img-gallery"
+              data-height="505"
+              data-width="505"
+            >
+              <img
+                src="https://source.unsplash.com/random/505x505"
+                alt=""
+                class="img-fluid"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section id="newsletter" class="text-center p-5 bg-dark text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2>Sign Up For Our Newsletter</h2>
+            <p
+              class="w-75 text-center"
+              style="margin: auto; margin-bottom: 1rem"
+            >
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
+              repellendus ipsa iure nam atque assumenda recusandae obcaecati
+              sint officia excepturi.
+            </p>
+            <form class="form-inline justify-content-center">
+              <input
+                type="text"
+                class="form-control mb-2 mr-2"
+                placeholder="Enter Name"
+              />
+              <input
+                type="email"
+                class="form-control mb-2 mr-2"
+                placeholder="Enter Email"
+              />
+              <button class="btn btn-primary mb-2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="main-footer" class="text-center p-4">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p style="color: #777; margin-bottom: 0.5rem">
+              Copyright &copy; <span id="year"></span> Glozzom
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- VIDEO MODAL -->
+    <div class="modal fade" id="videoModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+            <iframe
+              src=""
+              frameborder="0"
+              height="350"
+              width="100%"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"
+      integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      // Get the current year for the copyright
+      $('#year').text(new Date().getFullYear());
+
+      //Configure Slider
+      $('.carousel').carousel({
+        interval: 6000,
+        pause: 'hover',
+      });
+
+      // Lightbox init
+      $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+      });
+
+      // Video Play
+      $(function () {
+        // Auto play modal video
+        $('.video').click(function () {
+          var theModal = $(this).data('target'),
+            videoSRC = $(this).attr('data-video'),
+            videoSRCauto =
+              videoSRC +
+              '?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1';
+          $(theModal + ' iframe').attr('src', videoSRCauto);
+          $(theModal + ' button.close').click(function () {
+            $(theModal + ' iframe').attr('src', videoSRC);
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
